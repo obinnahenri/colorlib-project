@@ -594,6 +594,7 @@ margin: 50px 50px 100px 50px ;
 footer{
   background-color: #1F1C1C;
   padding:100px 54.031px;
+  transition-duration: 500ms;
 
 
 }
@@ -657,7 +658,46 @@ h5{
   margin: 0;
   margin-bottom: 30px;
 }
+           
+/**FOOTER**/
 
+
+.footer-right li{
+  margin-bottom: 15px;
+  list-style: none;
+  font-size: 14px;
+}
+.footer-right li:hover{
+  color: #ff1662;
+  transition: 0.5s;
+}
+.footer-right ul{
+  padding: 0;
+}
+.footer-right-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  padding: 0px 30px;
+  background-color: #565151;
+  margin-bottom: 15px;
+
+}
+.footer-right-2:hover{
+  background-color: #ff1662;
+  transition: 0.5s;
+}
+
+.footer-right-2 p{
+  font-size: 14px;
+  color: #ffffff;
+  justify-content: space-betweenS;
+}
+.footer-nav ul li a{
+  text-decoration: none;
+  color: inherit;
+}
 
 
 
